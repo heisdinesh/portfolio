@@ -1,11 +1,4 @@
-import React, { useState } from 'react';
-import iedc from '../images/iedc.png';
-import Project from './Project';
-import { useSearchParams } from 'react-router-dom';
-
-const ProjectsList = () => {
-  const [design, setDesign] = useState(false);
-  const websiteProjects =[
+const websiteProjects =[
     {
       id:1,
       image:iedc,
@@ -79,17 +72,3 @@ const ProjectsList = () => {
       type:"design"
     },
   ]
-
-  return (
-    <section className="pt-12 bg-blu h-auto md:h-screen py-8 md:py-24 flex flex-col items-center">
-      <h1 className="text-4xl md:text-7xl text-center font-bold text-white mb-8 md:mb-16">My Works</h1>
-      <div className="pt-6 md:pt-12 flex gap-4 flex-wrap justify-center">
-        {design
-          ? designProjects.map((pro) => <Project key={pro.id} data={pro} />)
-          : websiteProjects.map((pro) => <Project key={pro.id} data={pro} />)}
-      </div>
-    </section>
-  );
-};
-
-export default ProjectsList;

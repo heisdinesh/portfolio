@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Project = (props) => {
    const {image, name, code, demo, description}=props.data
@@ -12,8 +13,8 @@ const Project = (props) => {
             <p className='pt-2 text-white text-2xl font-bold text-left'>{name}</p>
             <p className="pt-2 text-white text-sm text-justify">{description}</p>
             <div className='flex gap-4 pt-2 font-semibold'>
-                <button className="px-12 py-1 rounded-md border-2 border-zinc-600">Code</button>
-                <button className="px-12 py-1 rounded-md bg-white text-black">View</button>
+                <Link to={`${code}`} target='_blank' className="px-12 py-1 rounded-md border-2 border-zinc-600">Code</Link>
+                <Link to={`${demo}`} target='_blank' className="px-12 py-1 rounded-md bg-white text-black">View</Link>
             </div>
         </div>
     </div>
