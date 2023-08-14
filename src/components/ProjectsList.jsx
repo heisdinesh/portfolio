@@ -81,7 +81,7 @@ const ProjectsList = () => {
   ]
 
   return (
-    <section className="pt-12 bg-blu h-auto md:h-screen py-8 md:py-24 flex flex-col items-center">
+    <section id="projects" className="pt-12 bg-blu h-auto md:h-screen py-8 md:py-24 flex flex-col items-center">
       <h1 className="text-4xl md:text-7xl text-center font-bold text-white mb-8 md:mb-16">My Works</h1>
       <div className="pt-6 md:pt-12 flex gap-4 flex-wrap justify-center">
         {design

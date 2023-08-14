@@ -24,8 +24,8 @@ const Landing = () => {
           </div>
         </div>
       </div>
-      <Expertise />
-      <ProjectsList />
+      <Expertise/>
+      <ProjectsList  />
       <Testimonials />
       {/* <Contact /> */}
     </div>

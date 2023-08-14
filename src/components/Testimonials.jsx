@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const Testimonials = () => {
   return (
-    <div className="flex flex-col-reverse md:flex-row md:h-screen bg-blu pt-12">
+    <div id="contact" className="flex flex-col-reverse md:flex-row md:h-screen bg-blu pt-12">
         <section className='flex pt-12 md:pt-0 text-white md:w-1/2'>
             <div className="flex flex-col justify-evenly items-center ">
                 <div className='flex flex-col    '>
@@ -27,7 +27,7 @@ const Testimonials = () => {
         </section>
         <section className='flex flex-col md:flex-row bg-green-800 md:w-1/2'>
             <div className="md:w-1/2 bg-red-400 py-8 md:pt-36">
-                <p className='text-justify p-8'>It was a Pleasure to Work with Dinesh and would highly recommend him to any organisation or company, here were a few of the many advantage which I observed while working with him-
+                <p className='text-justify p-8 text-sm md:text-md'>It was a Pleasure to Work with Dinesh and would highly recommend him to any organisation or company, here were a few of the many advantage which I observed while working with him-
 <ul>
     <li>Very Quick at his work and delivers on time</li>
 <li>Flexible and also uses his own Ideas</li>
@@ -43,7 +43,7 @@ Wishing him all the Success in the Future</p>
             </div>
             <div className="md:w-1/2 bg-red-900">
                 <div className='h-1/2 py-8 md:py-0 bg-green-100'>
-                    <p className='text-justify p-8 '>Dinesh is a gifted logo-designer with a rare combination of patience, creative, and research skills.
+                    <p className='text-justify p-8 text-sm md:text-md '>Dinesh is a gifted logo-designer with a rare combination of patience, creative, and research skills.
 I’m lucky to have worked with Dinesh, his initial designs were spot on in terms of matching our brief, and he was able to articulate clearly and concisely why he had included particular features of the logo, how they would work to achieve our goals and appeal to our target market.</p>
 <p className='text-justify px-8 font-bold'>-Naiyaan</p>
 <p className='text-justify px-8'>CTO of HealthSphere</p>

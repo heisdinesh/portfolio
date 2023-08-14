@@ -3,15 +3,18 @@ import {Navbar} from "./components"
 import Landing from './pages/Landing';
 import About from './pages/About';
 import './App.css';
+import Resume from './components/Resume';
 
 function App() {
   return (
     <div className="App">
-     <Navbar />
+     
     <Router>
+    <Navbar />
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/about" element={<About />} />
+        <Route path="/resume" element={<Resume />} />
       </Routes> 
     </Router>
     </div>
