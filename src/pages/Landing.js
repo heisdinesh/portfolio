@@ -1,6 +1,13 @@
-import React from 'react';
-import background from '../images/landingj.png';
-import { Expertise, Navbar, ProjectsList, Testimonials, Contact } from '../components';
+import React from "react";
+import background from "../images/landingj.png";
+import About from "./About";
+import {
+  Expertise,
+  Navbar,
+  ProjectsList,
+  Testimonials,
+  Contact,
+} from "../components";
 
 const Landing = () => {
   return (
@@ -9,8 +16,8 @@ const Landing = () => {
         className="bg-opacity-50 text-black h-screen flex flex-col items-center justify-center"
         style={{
           backgroundImage: `url(${background})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center', // Center the background image
+          backgroundSize: "cover",
+          backgroundPosition: "center", // Center the background image
         }}
       >
         <div className="flex flex-col items-center justify-center">
@@ -24,8 +31,9 @@ const Landing = () => {
           </div>
         </div>
       </div>
-      <Expertise/>
-      <ProjectsList  />
+      <About />
+      <Expertise />
+      <ProjectsList />
       <Testimonials />
       {/* <Contact /> */}
     </div>
