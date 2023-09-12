@@ -30,16 +30,16 @@ const Navbar = () => {
           menu ? "hidden" : "flex flex-col items-start"
         }`}
       >
-        <HashLink smooth to="/#about">
+        <HashLink onClick={() => setMenu(!menu)} smooth to="/#about">
           About
         </HashLink>
-        <HashLink smooth to="/#projects">
+        <HashLink smooth onClick={() => setMenu(!menu)} to="/#projects">
           Projects
         </HashLink>
-        <HashLink smooth to="/resume">
+        <HashLink smooth onClick={() => setMenu(!menu)} to="/resume">
           Resume
         </HashLink>
-        <HashLink smooth to="/#contact">
+        <HashLink smooth onClick={() => setMenu(!menu)} to="/#contact">
           Contact
         </HashLink>
       </div>
