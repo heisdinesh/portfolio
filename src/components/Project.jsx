@@ -7,7 +7,7 @@ const Project = (props) => {
   return (
     <div className=" text-white p-4 rounded-lg">
       <div className="max-w-xs rounded">
-        <img className="w-min-80 h-56 rounded-lg" src={image} alt="" />
+        <img className="w-80 h-56 rounded-lg" src={image} alt="" />
         <p className="pt-2 text-white text-2xl font-bold text-left">{name}</p>
         <p className="pt-2 text-white text-sm text-justify">{description}</p>
         <div className="flex gap-4 pt-2 font-semibold">
