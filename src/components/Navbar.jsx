@@ -15,9 +15,9 @@ const Navbar = () => {
   return (
     <div className="z-50 flex flex-col md:flex-row justify-between md:items-center text-lg sticky top-0 h-auto md:h-16 py-2 bg-blu px-12 md:px-24 text-white font-semibold">
       <div className="flex justify-between w-full items-center">
-        <Link to="/" className="text-xl md:text-2xl">
+        <HashLink smooth to="/#landing" className="text-xl md:text-2xl">
           heisdinesh
-        </Link>
+        </HashLink>
 
         <div className="md:hidden text-2xl font-bold">
           <button onClick={toggleMenu} className="text-white">
@@ -33,7 +33,7 @@ const Navbar = () => {
         <HashLink smooth to="/#about">
           About
         </HashLink>
-        <HashLink smooth to="#projects">
+        <HashLink smooth to="/#projects">
           Projects
         </HashLink>
         <HashLink smooth to="/resume">

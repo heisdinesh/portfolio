@@ -13,6 +13,7 @@ import {
   SiGit,
   SiAdobeillustrator,
 } from "react-icons/si";
+import { HashLink } from "react-router-hash-link";
 
 const About = () => {
   const navigate = useNavigate();
@@ -91,12 +92,13 @@ const About = () => {
           </div>
         </div>
         <div className="pt-12 text-center md:text-left pb-12 md:pb-0">
-          <button
-            onClick={() => navigate("/")}
+          <HashLink
+            smooth
+            to="/#projects"
             className="px-6 py-2 border-2 rounded-md"
           >
             View My Work
-          </button>
+          </HashLink>
         </div>
       </div>
     </div>

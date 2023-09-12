@@ -1,17 +1,18 @@
 import React from "react";
 import background from "../images/landingj.png";
-import About from "./About";
+
 import {
   Expertise,
   Navbar,
   ProjectsList,
   Testimonials,
   Contact,
+  About,
 } from "../components";
 
 const Landing = () => {
   return (
-    <div className="">
+    <div id="landing" className="">
       <div
         className="bg-opacity-50 text-black h-screen flex flex-col items-center justify-center"
         style={{
