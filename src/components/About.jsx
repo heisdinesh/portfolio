@@ -20,42 +20,52 @@ const About = () => {
   const skills = [
     {
       id: 1,
+      name: "React",
       icon: SiReact,
     },
     {
       id: 2,
+      name: "NextJS",
       icon: SiNextdotjs,
     },
     {
       id: 3,
+      name: "TailwindCSS",
       icon: SiTailwindcss,
     },
     {
       id: 4,
+      name: "Express",
       icon: SiExpress,
     },
     {
       id: 5,
+      name: "NodeJS",
       icon: SiNodedotjs,
     },
     {
       id: 6,
+      name: "Git",
       icon: SiGit,
     },
     {
       id: 7,
+      name: "MongoDB",
       icon: SiMongodb,
     },
     {
       id: 8,
+      name: "PostgreSQL",
       icon: SiPostgresql,
     },
     {
       id: 9,
+      name: "Figma",
       icon: SiFigma,
     },
     {
       id: 10,
+      name: "Illustrator",
       icon: SiAdobeillustrator,
     },
   ];
@@ -81,12 +91,13 @@ const About = () => {
           <div className="pt-8 flex flex-wrap justify-center md:justify-start items-start gap-8">
             {skills.map((icon) => (
               <div
-                className="border-2 border-zinc-600 rounded-md p-4"
+                className="border-2 border-zinc-600 rounded-md p-4 px-5 flex flex-col items-center justify-center"
                 key={icon.id}
               >
                 <p className="text-5xl p-4">
                   <icon.icon />
                 </p>
+                <p className="text-sm font-semibold">{icon.name}</p>
               </div>
             ))}
           </div>
