@@ -35,8 +35,8 @@ const ProjectsList = () => {
       name: "IEDC",
       description:
         "A webapp with resources and access to network, funding and mentors for aspiring student entrepreneurs.",
-      code: "https://github.com/heisdinesh/contest_crawler.git",
-      demo: "https://propel-hack.vercel.app/",
+      code: "https://github.com/heisdinesh/iedc.git",
+      demo: "https://www.iedc-dsce.com/",
       type: "web",
     },
     {
@@ -46,8 +46,8 @@ const ProjectsList = () => {
       name: "CheckInSystem",
       description:
         "A web app to streamline attendance tracking and manage food distribution for events based on QR technology.",
-      code: "https://github.com/heisdinesh/contest_crawler.git",
-      demo: "https://propel-hack.vercel.app/",
+      code: "https://github.com/heisdinesh/check_in_system.git",
+      demo: "https://check-in-system.vercel.app/",
       type: "web",
     },
   ];
